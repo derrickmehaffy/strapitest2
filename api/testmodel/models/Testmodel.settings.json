@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "testmodel",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "teststring": {
+  "type": "string"
+},
+"testint": {
+  "type": "integer"
+},
+"testdate": {
+  "type": "date"
+},
+"testtext": {
+  "type": "text"
+},
+"testboolean": {
+  "type": "boolean"
+}
+  }
+}

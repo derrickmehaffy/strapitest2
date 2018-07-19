@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/testmodel",
+      "handler": "Testmodel.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/testmodel/count",
+      "handler": "Testmodel.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/testmodel/:_id",
+      "handler": "Testmodel.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/testmodel",
+      "handler": "Testmodel.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/testmodel/:_id",
+      "handler": "Testmodel.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/testmodel/:_id",
+      "handler": "Testmodel.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
